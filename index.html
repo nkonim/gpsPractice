@@ -5,7 +5,7 @@
   <title>phonegap & jquery mobile boilerplate</title>
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
-
+    <link rel="stylesheet"  href="css/map.css" />
   <link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
   <link rel="stylesheet" href="css/jquery.mobile.theme.css" />
   
@@ -30,23 +30,27 @@
 
   </head>
   <body>
-    
-    <div data-role="page">
-
-    	<div data-role="header">
+     <div id="map"></div>
+     <button id="find" onclick="find()"> Find </button>
+<!--     <div data-role="page">
+ -->
+    	<!-- <div data-role="header">
     		<h1>Single page</h1>
-    	</div><!-- /header -->
+    	</div> --><!-- /header -->
 
-    	<div data-role="content">
-            <p id="geolocation">
-                Finding geolocation....
-            </p>
-    	</div><!-- /content -->
+<!--     	<div data-role="content">
+ -->          
 
-    	<div data-role="footer">
+            <!-- x -->
+    	<!-- </div> --><!-- /content -->
+
+    	<!-- <div data-role="footer">
     		<h4>Footer content</h4>
-    	</div><!-- /footer -->
-
-    </div><!-- /page -->
+    	</div> --><!-- /footer -->
+<!-- 
+    </div> --><!-- /page -->
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3K71z8dKlWSraR_M2acAvQY59GL2dJN0&callback=initMap">
+    </script>
   </body>
 </html>

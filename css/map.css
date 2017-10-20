@@ -1,0 +1,15 @@
+#map {
+        height: 95%;
+      }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+ #find{
+ 	position: relative;
+ 	height: 5%;
+ 	width: 100%;
+ }
